@@ -1,28 +1,28 @@
 class Pavise < Formula
   desc "Fast static security analyzer for iOS IPA files"
   homepage "https://pavise.app"
-  version "0.1.2"
+  version "0.1.3"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.2/pavise-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "7e43184b3a954df68bba23074c07782b0459d37c43209e7d0880d1986eb721d2"
+      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.3/pavise-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "7437b892f6ce3ef036af28f6733e5340e8860f67110ba7a5042b3446e05faef6"
     end
     on_intel do
-      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.2/pavise-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "b0d7481f9db1bb538aa76db736d0bac56d6c76d911beb8d568fc8e5b9791dcb7"
+      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.3/pavise-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "e2d3e727d8dfbfaf03337152c7c271aa6b7f2f473b9871c9495c551e76704bb2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.2/pavise-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "42897ccd6f6965c9e9941dc005d865130bd23b8e10db029f25eab9a8ea5f2317"
+      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.3/pavise-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c2129717c98571ce9d963a3e94fb2239725cd1b5783375d9a6b6909db80c9861"
     end
     on_intel do
-      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.2/pavise-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1f7688d3b25601fee1581f6a92a6cf7395d15f2e4ed466010caa2e374064f589"
+      url "https://github.com/ahmetmutlugun/pavise/releases/download/v0.1.3/pavise-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2eaa6b1a9965726e8559316955befe0a00d56827e9916b7f7ad07fcbf10f0987"
     end
   end
 
